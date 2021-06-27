@@ -62,10 +62,10 @@ I chose to use JSON files as inputs, because it makes it a lot easier to introdu
     - rx: rotation in x axis
     - ry: rotation in y axis
     - rxy: rotation in both
--Colors: specifies the [color map](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [quiver](https://matplotlib.org/stable/tutorials/colors/colors.html) color of the plot.
+- Colors: specifies the [color map](https://matplotlib.org/stable/tutorials/colors/colormaps.html) and [quiver](https://matplotlib.org/stable/tutorials/colors/colors.html) colors for the plot.
 
-And that should be everything you need to know to start playing around.
+And that should be everything you need to know to start playing around, you can also check the [configurations](https://github.com/sodes-proxy/2D-Fluid-Simulator/tree/main/configurations) i've prepared
 
-any comment or inconvience you can send me an email, to check what's wrong.
+Any comment or inconvience you can send me an email, to check what's wrong.
 
 have fun!
