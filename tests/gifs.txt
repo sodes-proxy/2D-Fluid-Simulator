@@ -1,0 +1,9 @@
+1: first gif generated after fixing the animation writing, tried using ffmpeg but for some reason it didnt work, switched to pillow instead
+2: attempting to change color via imshow, didn't work properly
+3: change color of plot successfully via cmap in plt.imshow
+4,5: playing with the configuration to see how it behaves
+6: attempt to make a rotating velocity, failed miserably
+7: rotating velocity working properly, in y
+8: rotating velocity working properly, in x
+9: impleting both rotation failed, got x and y confused
+config1: name explains itself

@@ -1,0 +1,38 @@
+{
+  "densities" : [
+    {
+      "pos1" : [40,20],
+      "pos2" : [45,40],
+      "value" : 500.0
+    },
+    {
+      "pos1" : [45,3],
+      "pos2" : [55,10],
+      "value" : 500.0
+    },
+    {
+      "pos1" : [45,45],
+      "pos2" : [55,55],
+      "value" : 500.0
+    }
+  ],
+  "velocities" : [
+    {
+      "pos" : [58,4],
+      "direction" : [-1,1,"rx"]
+    },
+    {
+      "pos" : [58,50],
+      "direction" : [-1,-1,"rx"]
+    },
+    {
+      "pos" : [58,30],
+      "direction" : [-1,-1,"rx"]
+    }
+  ],
+  "colors" :
+    {
+      "cmap" : "hot",
+      "quiver" : "#00FFFF"
+    }	
+}

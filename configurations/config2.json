@@ -1,0 +1,20 @@
+{
+  "densities" : [
+    {
+      "pos1" : [25,25],
+      "pos2" : [35,35],
+      "value" : 500.0
+    }
+  ],
+  "velocities" : [
+    {
+      "pos" : [30,30],
+      "direction" : [1,1,"rxy"]
+    }
+  ],
+  "colors" :
+    {
+      "cmap" : "hot",
+      "quiver" : "#000000"
+    }	
+}

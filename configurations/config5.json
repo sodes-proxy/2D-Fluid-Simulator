@@ -1,0 +1,28 @@
+{
+  "densities" : [
+    {
+      "pos1" : [20,25],
+      "pos2" : [40,35],
+      "value" : 1500.0
+    }
+  ],
+  "velocities" : [
+    {
+      "pos" : [15,10],
+      "direction" : [-1,1,"rxy"]
+    },
+    {
+      "pos" : [45,50],
+      "direction" : [1,1,"rxy"]
+    },
+    {
+      "pos" : [29,29],
+      "direction" : [1,-1,"rxy"]
+    }
+  ],
+  "colors" :
+    {
+      "cmap" : "bone",
+      "quiver" : "y"
+    }	
+}
