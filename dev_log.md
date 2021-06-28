@@ -33,4 +33,40 @@ I noticed that the density was getting pulled by the velocity wich I thought was
 
 ![blooper5](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/tests/5.gif)
 
+### Adding different behaviours to velocity
 
+After understanding how the velocity works I wanted to make a more interesting scenario where the velocity is not only straight line so I tried to add rotating velocities, utilizing the cos and sin function of numpy, in my first attempt I was assigning the value directly and the result was the following.
+
+![blooper6](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/tests/6.gif)
+
+As you can see it the behaviour is not what I wanted, and it was confusing because I was using the functions correctly, so I remembered something similar happened in a previous project, originally I was assigning the values directly in the update function so I modified it a bit and created the *velocity_behaviour* which does the calculations and then returns the value, and that made the trick.
+
+### Rotations working properly in x
+
+![blooper7](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/tests/7.gif)
+
+### Rotations working properly in y
+
+![blooper8](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/tests/8.gif)
+
+### Two rotations 
+
+![blooper9](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/tests/9.gif)
+
+And that was all the problems I encountered, setting up the configurations files was an easy task thanks to the JSON format, which is very friendly for human readers and also really easy to parse in python.
+
+### A circular rotation simulation I really liked
+
+![blooper9](https://github.com/sodes-proxy/2D-Fluid-Simulator/blob/main/configurations/config2.gif)
+
+
+## References
+
+- http://www2.hawaii.edu/~takebaya/cent110/json/json.html
+- https://matplotlib.org/stable/tutorials/colors/colors.html
+- https://matplotlib.org/stable/tutorials/colors/colormaps.html
+- https://stackoverflow.com/questions/40026718/different-colours-for-arrows-in-quiver-plot
+- https://stackoverflow.com/questions/13316397/matplotlib-animation-no-moviewriters-available
+- https://stackoverflow.com/questions/60033397/moviewriter-ffmpeg-unavailable-trying-to-use-class-matplotlib-animation-pillo
+
+Thank you for reading!!
